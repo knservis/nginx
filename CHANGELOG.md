@@ -133,3 +133,4 @@ is available.
 
 * [COOK-809] - attribute to disable access logging
 * [COOK-772] - update nginx download source location
+
