@@ -19,6 +19,7 @@
 #
 
 define :nginx_site, :enable => true, :timing => :delayed do
+  p ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Params enable: #{params[:enable]}"
   if params[:enable]
     execute "nxensite #{params[:name]}" do
       command "/usr/sbin/nxensite #{params[:name]}"
